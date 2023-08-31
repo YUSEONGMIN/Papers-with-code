@@ -1,4 +1,4 @@
-![ipo](https://github.com/YUSEONGMIN/Papers-with-code/assets/68213803/3a55d495-533e-431f-ad07-65a831ef1387)# Integer-Valued HAR($p$) model with Poisson distribution
+# Integer-Valued HAR($p$) model with Poisson distribution
 
 [Integer-Valued HAR(<i>p</i>) model with Poisson distribution for forecasting IPO volumes (2023)](http://www.csam.or.kr/journal/view.html?doi=10.29220/CSAM.2023.30.3.273)
 
@@ -190,7 +190,7 @@ def CLSE(XX,hps):
 데이터 출처는 국내 기업공시채널 [KIND(Korea investor’s network for disclosure system)](https://kind.krx.co.kr)이며,  
 2000년 1월부터 2022년 7월까지의 월별 국내 기업공개(IPO) 수를 분석한다. 아래는 월별 IPO의 그래프이다.
 
-![EDA](images/EDA.png)   
+![EDA](img/ipo.png)   
 
 데이터의 특징과 정상성을 알아보기 위해 기술통계량 및 ADF 검정을 한다. 결과는 다음과 같다.
 
@@ -208,7 +208,7 @@ def CLSE(XX,hps):
 
 시차 모수 $h_p$=(1,12)와 (1,6,12)에 대한 INHAR 모형 적합 결과는 다음과 같다. 
 
-![fit](img/fit.png)   
+![fit](img/ipo_fit.png)   
 
 <table>
     <thead>
@@ -253,9 +253,7 @@ def CLSE(XX,hps):
 추정된 모수로 한 단계 예측 분석을 한 후, 기존 INAR 모형을 이용한 분석 결과와 비교한다.  
 신뢰구간은 95%이며, 결과는 다음과 같다.
 
-![forecast](img/forecast.png)   
-
-
+![forecast](img/ipo_fore.png)
 
 | | MAE | RMSE | MAPE | SMAPE | RRSE |
 | --- | --- | --- | --- | --- | --- |
@@ -265,8 +263,4 @@ def CLSE(XX,hps):
 | **INHAR(3)** | 2.4897 | 2.9743 | 39.1858 | 16.7153 | 1.1117 |
 | **INAR(3)** | 2.8006 | 3.1744 | 41.3265 | 18.8416 | 1.1865 |
 
-
-
 비교 분석 결과, 기존 모형보다 효율이 증가한 것을 확인할 수 있다.
-
-
