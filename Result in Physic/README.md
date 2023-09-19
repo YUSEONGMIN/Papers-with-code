@@ -2,6 +2,7 @@
  
 [Modeling and forecasting the COVID-19 pandemic with heterogeneous autoregression approaches: South Korea (2021)](https://www.sciencedirect.com/science/article/pii/S2211379721007233?via%3Dihub)
 
+
 국내 COVID-19 확진자 수를 예측하기 위한 모형을 제안한다.  
 해당 모형에 대한 코드를 정리한다.  
 
@@ -110,3 +111,8 @@ def BiHAR_P(p,alpha,beta,n): # p: 이동평균 차수
 ## 2. 모의 실험
 
 모수 추정 방법은 `최소제곱법(Ordinary least squares; OLS)`을 이용한다.  
+
+
+## 2. 모의 실험
+## 3. 실증분석 EDA
+## 4. 실증분석 결과
