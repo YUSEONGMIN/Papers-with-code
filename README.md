@@ -2,4 +2,4 @@
 논문 코드
 
 * [CSAM - INHAR model](CSAM)
-* [Result in Physic - Bivariate HAR model](Result-in-Physic)
+* [Result in Physic - Bivariate HAR model](Result%20in%20Physic)
