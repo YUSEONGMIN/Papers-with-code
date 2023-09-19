@@ -3,7 +3,7 @@
 [Modeling and forecasting the COVID-19 pandemic with heterogeneous autoregression approaches: South Korea (2021)](https://www.sciencedirect.com/science/article/pii/S2211379721007233?via%3Dihub)
 
 국내 COVID-19 확진자 수를 예측하기 위한 모형을 제안한다.  
-해당 모형에 대한 코드를 정리한다.
+해당 모형에 대한 코드를 정리한다.  
 
 ## 목차
 1. [모형 정의](#1-모형-정의)
